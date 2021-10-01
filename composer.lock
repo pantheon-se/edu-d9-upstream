@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86c22ee257c3107b6ba6dad15354de4f",
+    "content-hash": "0c2f4ef2dc8ebbdae31d6349b15005fc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2862,6 +2862,39 @@
             "time": "2021-09-20T12:20:58+00:00"
         },
         {
+            "name": "pantheon-se/pantheon_autopilot_demo",
+            "version": "v1.0.119",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pantheon-SE/pantheon_autopilot_demo.git",
+                "reference": "a1d5309545bf53bdfec42fdb05ddb5b37b735221"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pantheon-SE/pantheon_autopilot_demo/zipball/a1d5309545bf53bdfec42fdb05ddb5b37b735221",
+                "reference": "a1d5309545bf53bdfec42fdb05ddb5b37b735221",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Taylor (kyletaylored)",
+                    "homepage": "https://www.drupal.org/u/kyletaylored",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Simple demo to showcase Pantheon Autopilot VRT detection",
+            "support": {
+                "issues": "https://github.com/Pantheon-SE/pantheon_autopilot_demo/issues",
+                "source": "https://github.com/Pantheon-SE/pantheon_autopilot_demo/tree/v1.0.119"
+            },
+            "time": "2021-09-30T23:06:07+00:00"
+        },
+        {
             "name": "pantheon-systems/drupal-integrations",
             "version": "9.0.2",
             "source": {
@@ -2906,7 +2939,7 @@
         },
         {
             "name": "pantheon-upstreams/upstream-configuration",
-            "version": "dev-autopilot",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",
